@@ -1,5 +1,5 @@
 # OpenSea-Clone
-A working NFT market built with React.js and Next.js using the Sanity.io database and thirdweb
+A working NFT market allowing for the selling and buying of NFTs, built with React.js, Next.js, and thirdweb using the Sanity.io database.
 
 
 
