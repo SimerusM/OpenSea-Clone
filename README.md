@@ -10,5 +10,5 @@ A working NFT market built with React.js and Next.js using the Sanity.io databas
 ![image](https://user-images.githubusercontent.com/63352151/162625793-c6bf7ed4-76d7-45fe-9414-ae2801bceddb.png)
 ![image](https://user-images.githubusercontent.com/63352151/162625831-5aef198f-f51f-4f36-a6f9-5fca5f98922b.png)
 ![image](https://user-images.githubusercontent.com/63352151/162625875-41ddd2ea-377b-44d1-8217-c22ded5ef309.png)
-![image](https://user-images.githubusercontent.com/63352151/162625884-496dfb18-bc4f-4e0f-9f10-a71ab7a44571.png)
+![image](https://user-images.githubusercontent.com/63352151/162626001-fffab83f-6a36-497e-9b99-aff5e7d8fe47.png)
 
