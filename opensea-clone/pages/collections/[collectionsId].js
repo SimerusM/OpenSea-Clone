@@ -36,7 +36,7 @@ const Collection = () => {
   const router = useRouter()
   const { provider } = useWeb3()
   // Hard coded collectionId, retrieve collectionId from metamask acc
-  const collectionId = '0x8D7B625C254A2eC715aCF4F59A1435B852Ac6489'
+  const collectionId = ''
   const [collection, setCollection] = useState({})
   const [nfts, setNfts] = useState([])
   const [listings, setListings] = useState([])
@@ -47,10 +47,9 @@ const Collection = () => {
 
     const sdk = new ThirdwebSDK(
       provider.getSigner(),
-      'https://eth-rinkeby.alchemyapi.io/v2/_JJpaK3ysHjeCviY6LFITOTOFc3qtktE'
+      '' // Using signer
     )
 
-    console.log(router.query, 'HGSDGSDGUSHDGSHJDGSDGHJDGSH')
 
     // Hard coded collectionId
     // find a way to get the collectionId from a router query
@@ -73,11 +72,11 @@ const Collection = () => {
 
     const sdk = new ThirdwebSDK(
       provider.getSigner(),
-      'https://eth-rinkeby.alchemyapi.io/v2/_JJpaK3ysHjeCviY6LFITOTOFc3qtktE'
+      '' // User signer
     )
     return sdk.getMarketplaceModule(
       // Thirdweb.com "opensea clone market" address
-      '0xFdaD1B9Ca60Bf277Ae45b016874E3e0E1624164A'
+      '' // Market address on thirdweb
     )
   }, [provider])
 
